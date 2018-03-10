@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryLight">#7986cb</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!-- material blue -->
+    <color name="colorAccent">#2196f3</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="cyan">#00ffff</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="orange">#ff5900</color>
+
+    <color name="blue_main">#283593</color>
+    <color name="blue_second">#0091ea</color>
+    <color name="blue_medium">#5a8dcf</color>
+    <color name="blue_light">#96b8dd</color>
+
+    <color name="material_red">#f44336</color>
+    <color name="material_orange">#ff9800</color>
+    <color name="material_yellow">#ffeb3b</color>
+    <color name="material_green">#4caf50</color>
+    <color name="material_blue">#2196f3</color>
+    <color name="material_cyan">#00bcd4</color>
+    <color name="material_purple">#9c27b0</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_dark">#404040</color>
+    <color name="gray">#808080</color>
+    <color name="gray_light">#c0c0c0</color>
+    <color name="gray_background">#f0f0f0</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="translucent_white">#c0ffffff</color>
+    <color name="translucent_gray_dark">#f0404040</color>
+    <color name="translucent_gray">#e0808080</color>
+    <color name="translucent_gray_light">#e0c0c0c0</color>
+    <color name="translucent_gray_bg">#e0f0f0f0</color>
+    <color name="translucent_colorPrimary">#e03F51B5</color>
+    <color name="translucent_material_blue">#e02196f3</color>
+
+    <color name="calendar_highlighted_day_bg">#d3eeff</color>
+    <color name="calendar_text_highlighted">#000000</color>
+
 </resources>

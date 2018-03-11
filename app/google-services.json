@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "318437552743",
+    "firebase_url": "https://fitcoin-38a11.firebaseio.com",
+    "project_id": "fitcoin-38a11",
+    "storage_bucket": "fitcoin-38a11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318437552743:android:928f299a37e16a44",
+        "android_client_info": {
+          "package_name": "com.example.yee.fitcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318437552743-ob9sjtd605224efsvd1fp3hhdhf06iqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yee.fitcoin",
+            "certificate_hash": "5c8473ee91cbed562de843be8d306f79efdb4a0a"
+          }
+        },
+        {
+          "client_id": "318437552743-dbf764cmmah8jl14dd773scf7vumrbpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BVqh6msTSrI3c64kcR3Rxk-lL8ApaeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318437552743-dbf764cmmah8jl14dd773scf7vumrbpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

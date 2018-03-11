@@ -35,14 +35,13 @@ public class LogTab extends Fragment implements View.OnClickListener {
         submit = view.findViewById(R.id.submit);
         submit.setOnClickListener(this);
         return view;
-
     }
 
     @Override
     public void onClick(View view) {
         DatabaseReference myRef = db.getReference("log");
         myRef.setValue(date.getText()+","+miles.getText()+","+time.getText());
-        Toast toast = Toast.makeText(getActivity(), "Submitted Successfully", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getActivity(), "Eskeeeetit!", Toast.LENGTH_SHORT);
         toast.show();
         date.getText().clear();
         miles.getText().clear();

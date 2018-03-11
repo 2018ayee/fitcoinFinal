@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     /**
      * Id to identity READ_CONTACTS permission request.
      */
+    public static final String KEY_USER_ID = "user_id";
     private static final int REQUEST_READ_CONTACTS = 0;
 
     /**
@@ -148,7 +149,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (mAuthTask != null) {
             return;
         }
-        startActivity(new Intent(LoginActivity.this, HomePageActivity.class));
+
         // Reset errors.
         mEmailView.setError(null);
         mPasswordView.setError(null);
@@ -156,6 +157,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // Store values at the time of the login attempt.
         String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
+
+        Intent intent = new Intent(this, HomePageActivity.class);
+        intent.putExtra(KEY_USER_ID, email);
+        startActivity(intent);
 
         boolean cancel = false;
         View focusView = null;

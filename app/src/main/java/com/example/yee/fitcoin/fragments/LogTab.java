@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.yee.fitcoin.LoginActivity;
 import com.example.yee.fitcoin.R;
@@ -40,5 +41,10 @@ public class LogTab extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         DatabaseReference myRef = db.getReference("log");
         myRef.setValue(date.getText()+","+miles.getText()+","+time.getText());
+        Toast toast = Toast.makeText(getActivity(), "Submitted Successfully", Toast.LENGTH_SHORT);
+        toast.show();
+        date.getText().clear();
+        miles.getText().clear();
+        time.getText().clear();
     }
 }

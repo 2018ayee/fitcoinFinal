@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Ethan\AndroidStudioProjects\fitcoinFinal\FitCoin3.iml" filepath="C:\Users\Ethan\AndroidStudioProjects\fitcoinFinal\FitCoin3.iml" />
-      <module fileurl="file://C:\Users\Lilian\AndroidStudioProjects\fitcoinFinal\FitCoin3.iml" filepath="C:\Users\Lilian\AndroidStudioProjects\fitcoinFinal\FitCoin3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FitCoin3.iml" filepath="$PROJECT_DIR$/FitCoin3.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Ethan\AndroidStudioProjects\fitcoinFinal\app\app.iml" filepath="C:\Users\Ethan\AndroidStudioProjects\fitcoinFinal\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fitcoinFinal.iml" filepath="$PROJECT_DIR$/fitcoinFinal.iml" />
-      <module fileurl="file://C:\Users\YEE\AndroidStudioProjects\FitCoin3\fitcoinFinal.iml" filepath="C:\Users\YEE\AndroidStudioProjects\FitCoin3\fitcoinFinal.iml" />
     </modules>
   </component>
 </project>

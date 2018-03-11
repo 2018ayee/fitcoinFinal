@@ -35,6 +35,7 @@ public class LogTab extends Fragment implements View.OnClickListener {
         submit = view.findViewById(R.id.submit);
         submit.setOnClickListener(this);
         return view;
+
     }
 
     @Override

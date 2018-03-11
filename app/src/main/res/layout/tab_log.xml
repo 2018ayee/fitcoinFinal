@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-</android.support.constraint.ConstraintLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log Running"
+    android:layout_centerHorizontal="true"
+    android:textSize="25dp"
+    android:id="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:id="@+id/tvdate"
+        android:layout_below="@id/title"
+        android:textSize="20dp"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miles:"
+        android:id="@+id/tvmiles"
+        android:layout_below="@id/tvdate"
+        android:textSize="20dp"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:id="@+id/tvtime"
+        android:layout_below="@id/tvmiles"
+        android:textSize="20dp"
+        android:layout_margin="25dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/date"
+        android:layout_toRightOf="@id/tvdate"
+        android:layout_alignTop="@id/tvdate"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/miles"
+        android:layout_toRightOf="@id/tvmiles"
+        android:layout_alignTop="@id/tvmiles"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/time"
+        android:layout_toRightOf="@id/tvtime"
+        android:layout_alignTop="@id/tvtime"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:id="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvtime"
+        android:layout_margin="5dp"
+        />
+</RelativeLayout>

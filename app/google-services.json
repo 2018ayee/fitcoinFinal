@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "318437552743-9qi2k0llfa9a72qraaorkdvivh7mejvp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.yee.fitcoin",
-            "certificate_hash": "bf51902845e96bac872fbc35e17168016be07ac4"
-          }
-        },
-        {
           "client_id": "318437552743-5qjm36s5v7706o8dphjj08akaimbd755.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
